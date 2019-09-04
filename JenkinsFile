@@ -10,7 +10,7 @@ stage ('Checkout') {
 }
 stage('Clean') {
      steps {
-           bat 'dotnet clean'
+           bat 'C:\\Program Files\\dotnet\\dotnet.exe clean'
       }
    }
 stage('Build') {
